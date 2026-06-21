@@ -1,0 +1,45 @@
+.main-text:hover { color: blue;
+    
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    cursor: pointer;
+    
+}
+.main-text:active { 
+    color: red;
+
+    text-decoration: line-through;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        130deg,
+        hsl(287deg 100% 55%) 0%,
+        hsl(287deg 96% 54%) 12%,
+        hsl(287deg 92% 53%) 18%,
+        hsl(287deg 88% 51%) 22%,
+        hsl(287deg 84% 50%) 26%,
+        hsl(287deg 83% 49%) 29%,
+        hsl(287deg 83% 48%) 33%,
+        hsl(287deg 83% 47%) 36%,
+        hsl(287deg 83% 45%) 39%,
+        hsl(287deg 83% 44%) 42%,
+        hsl(287deg 83% 43%) 44%,
+        hsl(287deg 83% 42%) 47%,
+        hsl(287deg 83% 40%) 50%,
+        hsl(288deg 84% 39%) 53%,
+        hsl(288deg 84% 37%) 56%,
+        hsl(288deg 84% 36%) 58%,
+        hsl(288deg 84% 34%) 61%,
+        hsl(288deg 84% 32%) 64%,
+        hsl(288deg 84% 30%) 67%,
+        hsl(288deg 85% 28%) 71%,
+        hsl(289deg 85% 26%) 74%,
+        hsl(289deg 86% 24%) 78%,
+        hsl(290deg 87% 21%) 82%,
+        hsl(291deg 89% 18%) 88%,
+        hsl(293deg 100% 14%) 100%
+    );
+}
